@@ -1,0 +1,60 @@
+.section{style: 'border-bottom: 1px solid #ecf0f1;'}
+  .wrapper
+    .section-title
+      %h1
+        Создание эффективных сайтов
+        %br
+        от
+        %span.light 50 000 рублей
+
+.section{style: 'padding-top: 10px; padding-bottom: 25px; border-bottom: 1px solid #ecf0f1;'}
+  .wrapper
+    .section-title
+    .blocks{style: 'margin-top: 50px;'}
+      .block
+        .icon.check
+        .content
+          Наши сайты продают
+
+      .block
+        .icon.case
+        .content
+          Мы делаем всю работу под ключ
+
+      .block.last
+        .icon.clock
+        .content
+          Мы работаем быстро
+
+
+
+.section
+  .wrapper
+    .to-do
+
+    .call-to-action
+      8 (495) 792 89 59
+    .button.order-button
+      Оставьте заявку
+
+
+.modal-overlay
+.modal-dialog
+  .header
+    Оставьте заявку и мы с вами свяжемся
+  .body
+    %form{action: '#'}
+      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+      %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+      %button#send-order
+        Отправить
+
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!
